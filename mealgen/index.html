@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FforFOOD</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div id="nav">
+        <div id="nlft">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="281"
+            height="276"
+            viewBox="0 0 281 276"
+          >
+            <g
+              id="Group_1"
+              data-name="Group 1"
+              transform="translate(-471 -393)"
+            >
+              <text
+                id="F"
+                transform="translate(532 426)"
+                fill="#ed9f42"
+                font-size="200"
+                font-family="Gilroy-Medium, Gilroy"
+                font-weight="500"
+              >
+                <tspan x="0" y="193">F</tspan>
+              </text>
+              <text
+                id="D"
+                transform="translate(608 426)"
+                fill="#7b9a1e"
+                font-size="200"
+                font-family="Gilroy-Medium, Gilroy"
+                font-weight="500"
+              >
+                <tspan x="0" y="193">D</tspan>
+              </text>
+              <text
+                id="_4"
+                data-name="4"
+                transform="translate(471 393)"
+                fill="#7b9a1e"
+                font-size="200"
+                font-family="Gilroy-Medium, Gilroy"
+                font-weight="500"
+              >
+                <tspan x="0" y="193">4</tspan>
+              </text>
+            </g>
+          </svg>
+        </div>
+        <div id="nrgt">
+          <a href="#home">Home</a><a href="#">Categories</a
+          ><a href="#">Ingredients</a><a href="#">About Us</a>
+          <button>Meal of the Day</button>
+        </div>
+      </div>
+      <div id="home">
+        <div id="circ">
+          <h1>Let's Eat</h1>
+          <img src="./fococlipping-20220111-1291.png" alt="" />
+          <blockquote
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="2"
+          >
+            If you keep good food in your fridge, you will eat good food.<br />
+            <cite>~Errick McAdams</cite>
+          </blockquote>
+        </div>
+        <div id="centerimg">
+          <img src="./fococlipping-20220111-165114.png" alt="" />
+        </div>
+        <div id="texting">
+          <div id="textimg">
+            <h1>
+              What can i make with<span class="typed-text"></span
+              ><span class="cursor">&nbsp;</span>
+            </h1>
+          </div>
+          <div id="searchbar">
+            <input
+              type="text"
+              name="search-bar"
+              id="search-bar"
+              placeholder="Enter  ingredient"
+            />
+            <button type="submit" id="search-btn">
+              <i class="ri-search-line"></i>
+            </button>
+          </div>
+          <div id="circtext">
+            <img src="./Product (7).png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div id="result">
+        <div class="meal-result">
+          <h2
+            class="title"
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="2"
+          >
+            Your Search Results:
+          </h2>
+          <div id="meal">
+            <!-- meal item -->
+            <!-- <div class="meal-item">
+              <div class="meal-img">
+                <img
+                  src="./photo-1612524681749-2f7615663729-removebg-preview.png"
+                  alt="food"
+                />
+              </div>
+              <div
+                class="meal-name"
+                data-scroll
+                data-scroll-direction="horizontal"
+                data-scroll-speed="2"
+              >
+                <h3>Potato Chips</h3>
+                <a href="#" class="recipe-btn">Get Recipe</a>
+              </div>
+            </div>
+            end of meal item -->
+          </div>
+        </div>
+        <div class="meal-details">
+          <!-- recipe close btn -->
+          <button
+            type="button"
+            class="btn recipe-close-btn"
+            id="recipe-close-btn"
+          >
+            <i class="ri-close-line"></i>
+          </button>
+
+          <!-- meal content -->
+          <div class="meal-details-content">
+            <!-- <h2 class = "recipe-title">Meals Name Here</h2>
+            <p class = "recipe-category">Category Name</p>
+            <div class = "recipe-instruct">
+              <h3>Instructions:</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+            </div>
+            <div class = "recipe-meal-img">
+              <img src = "food.jpg" alt = "">
+            </div>
+            <div class = "recipe-link">
+              <a href = "#" target = "_blank">Watch Video</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js"
+      integrity="sha512-m/n857VfrPYUcRvzCfqfrC9aMT06TQA2V0DcX/Ovovrhswa3038FfYmHlB0l/ZMukVyKWmiwZI4Pnnd7v3FwFQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"
+      integrity="sha512-9ex1Kp3S7uKHVZmQ44o5qPV6PnP8/kYp8IpUHLDJ+GZ/qpKAqGgEEH7rhYlM4pTOSs/WyHtPubN2UePKTnTSww=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"
+      integrity="sha512-0bHMhYsdpiur1bT84kDH4D7cpxFQ9O7uA5yxVAqWC87h552Xt0swX4M+ZlXMKE8oPVRIJ5lAwXWO2UWeDwJJOw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
